@@ -13,8 +13,8 @@ class MyApp(App):
         layout = BoxLayout(padding=10)
         button = Button(text='My first button', background_color=(1,0,0,1))
         layout.add_widget(button)
-		label = Label(text='Hello world, this works ... awesome')
-		layout.add_widget(label)
+        label = Label(text='Hello world, this works ... awesome')
+        layout.add_widget(label)
         return layout
 
 
