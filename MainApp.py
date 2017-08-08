@@ -8,9 +8,9 @@ from kivy.uix.label import Label
 class MyApp(App):
 
     def build(self):
-		layout = BoxLayout(padding=10)
-		button = Button(text='My first button')
-		layout.add_widget(button)
+        layout = BoxLayout(padding=10)
+        button = Button(text='My first button')
+        layout.add_widget(button)
         return Label(text='Hello world, this works ... awesome')
 
 
