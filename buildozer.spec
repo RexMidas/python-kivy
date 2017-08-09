@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = My Application
+title = My_App
 
 # (str) Package name
-package.name = myapp
+package.name = testPackage
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -52,7 +52,7 @@ requirements = kivy
 #icon.filename = %(source.dir)s/data/icon.png
 
 # (str) Supported orientation (one of landscape, portrait or all)
-orientation = portrait
+orientation = landscape
 
 # (list) List of service to declare
 #services = NAME:ENTRYPOINT_TO_PY,NAME2:ENTRYPOINT2_TO_PY
