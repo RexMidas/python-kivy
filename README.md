@@ -26,3 +26,7 @@ sudo pip install buildozer
 buildozer init #creates a spec file
 
 buildozer android debug deploy
+
+
+# Developper Notes
+- the python main class for android compilation should be main.py
